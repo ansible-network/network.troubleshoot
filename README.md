@@ -74,7 +74,7 @@ run.yml
     {
     name: ospf_routing
     status: "failed",
-    falures:[
+    failures:[
         "area_id_mismatch"
         ],
     health-checks:[
@@ -84,6 +84,9 @@ run.yml
         is_l1_up: {
             status: success,
         },
+        is_l2_up: {
+            status: success,
+        }, 
         is_interface_passive: {
             status: success,
         },
