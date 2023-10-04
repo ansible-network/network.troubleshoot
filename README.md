@@ -9,7 +9,7 @@ content collections.
 **Capabilities**
 - Troubleshoot: `troubleshoot` operation enables users to performs collective predefined relevant network health-checks and perform assertion and validation based on the gathered information. 
 - Health-Checks: `health-checks` operation enables users to perform certain health-checks and return the status.
-- List: `list` operation return the resources which allows troubleshooting
+- List: `list` operation returns the resources which allows troubleshooting
  
 ### Usage
 This platform-agnostic role enables the user to troubleshoot the network issues by analyzing the information gathered through ansible network modules.The tasks offered by this role could be observed below:
